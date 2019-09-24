@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="style.css" rel="stylesheet" type="text/css" lang="da"/>
+    <meta charset="utf-8">
+
+
+
+
+
+</head>
+
+<body>
+    <h2>VELKOMMEN</h2>
+
+    <p>Tryk ikke på knappen</p>
+
+    <button id="myBtn">TRYK</button>
+
+    <p id="knap"></p>
+
+    <div id="billede">
+        <img src="horror.jpg" alt="horror" width="500" height="333">
+    </div>
+
+    <p>Gæt min alder, hvis du overhoved kan huske hvem jeg er.</p>
+
+    <button id="button">Gæt</button>
+
+    <p>Endnu en lille test. Hvad hedder jeg?</p>
+
+    <input type="text" size="40" onkeydown="nottrue(event)">
+
+
+    <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Træk mig ind i kassen eller kommer du ikke videre!</p>
+
+    <div id="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+
+
+
+    <p id="kasse"></p>
+
+    <button id="minknap">SLUT</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
